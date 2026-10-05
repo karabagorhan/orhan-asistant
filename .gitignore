@@ -1,0 +1,11 @@
+# Şirket verileri ve çıktılar — GitHub'a GİTMEZ
+gelen/
+ciktilar/
+veri/
+sablonlar/
+# Teknik
+venv/
+__pycache__/
+*.pyc
+.env
+*.key
