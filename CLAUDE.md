@@ -24,3 +24,12 @@
 
 ## Kendini geliştirme
 - Bir işi başarıyla bitirdiğinde, aynı türde tekrar gelirse kullanmak için /opt/asistan/skills altına script ve açıklama kaydet.
+
+## Belge okuma
+- PDF/Word/Excel/PowerPoint okurken önce markitdown kullan: /opt/asistan/venv/bin/markitdown DOSYA
+- Tablolu, karmaşık PDF (muayene raporu, teklif, şartname) için docling kullan: /opt/asistan/venv/bin/docling DOSYA --to md
+- Gelen dosyalar /opt/asistan/gelen içindedir.
+
+## Yeni skill kurma kuralı
+- /opt/asistan/referans/listeler altındaki listelerden skill KURMA. Sadece öner: ne işe yarar, kaynağı, dış hizmete veri gönderir mi.
+- Orhan onaylamadan hiçbir yeni skill, eklenti veya MCP kurma.

@@ -9,3 +9,9 @@ __pycache__/
 *.pyc
 .env
 *.key
+
+# Anthropic resmi skill lisansi — repoya yuklenmez
+.claude/skills/xlsx/
+.claude/skills/docx/
+.claude/skills/pptx/
+.claude/skills/pdf/
