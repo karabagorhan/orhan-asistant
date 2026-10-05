@@ -33,3 +33,7 @@
 ## Yeni skill kurma kuralı
 - /opt/asistan/referans/listeler altındaki listelerden skill KURMA. Sadece öner: ne işe yarar, kaynağı, dış hizmete veri gönderir mi.
 - Orhan onaylamadan hiçbir yeni skill, eklenti veya MCP kurma.
+
+## Referans kütüphanesi ve araçlar
+- /opt/asistan/referans/claude-cookbooks → Anthropic resmi örnek tarifleri. Yeni bir iş türünde önce burada benzer örnek ara.
+- MCP: fetch (web okuma), zaman (İstanbul saati), hafiza (kalıcı bilgi grafiği — önemli bilgileri buraya kaydet, işe başlarken buradan oku).
