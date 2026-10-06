@@ -37,3 +37,11 @@
 ## Referans kütüphanesi ve araçlar
 - /opt/asistan/referans/claude-cookbooks → Anthropic resmi örnek tarifleri. Yeni bir iş türünde önce burada benzer örnek ara.
 - MCP: fetch (web okuma), zaman (İstanbul saati), hafiza (kalıcı bilgi grafiği — önemli bilgileri buraya kaydet, işe başlarken buradan oku).
+
+## Zamanlanmış görevler
+- Orhan "her gün/her pazartesi/şu saatte ... yap" derse görev kur:
+  1. Görev talimatını /opt/asistan/gorevler/AD.md dosyasına yaz (AD: kısa-tireli-isim).
+  2. crontab'a satır ekle: DAKIKA SAAT * * GUN /opt/asistan/venv/bin/python /opt/asistan/bot/gorev.py AD >> /opt/asistan/gorevler.log 2>&1
+- Kurmadan ÖNCE saati, günleri ve görevin ne yapacağını Orhan'a teyit ettir.
+- En fazla 5 aktif görev. Saatlikten sık görev kurma (maliyet).
+- "Görevlerimi listele" denirse crontab -l ve gorevler/ klasörünü özetle. Silme isteğinde crontab satırını ve .md dosyasını kaldır.
